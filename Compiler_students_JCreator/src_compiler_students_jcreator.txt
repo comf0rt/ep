@@ -1,0 +1,9 @@
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\code_gen\CodeGenerator.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\lexer\LexerImpl.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\parser\ParserImpl.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\semantics\SemanticAnalyzer.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\token\TokenImpl.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\src\token\TokenType.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\resources\4eZad.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\resources\4fZad.java
+C:\Users\sit213\Desktop\Compiler_students_JCreator\resources\4gZad.java

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Compiler_students_JCreator</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>\</source_path>
+		<jdkprofile_ref>JDK version 1.8.0_221</jdkprofile_ref>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>code_gen.CodeGenerator</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries>
+		<library_ref>CompilerLib</library_ref>
+	</libraries>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<folderitem>
+				<path>src\code_gen</path>
+			</folderitem>
+			<folderitem>
+				<path>src\lexer</path>
+			</folderitem>
+			<folderitem>
+				<path>src\parser</path>
+			</folderitem>
+			<folderitem>
+				<path>src\semantics</path>
+			</folderitem>
+			<folderitem>
+				<path>src\token</path>
+			</folderitem>
+			<folderitem>
+				<path>resources</path>
+			</folderitem>
+			<folderitem>
+				<path>grammar</path>
+			</folderitem>
+			<fileitem>
+				<path>src\code_gen\CodeGenerator.java</path>
+				<folder>src\code_gen</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\lexer\LexerImpl.java</path>
+				<folder>src\lexer</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\parser\ParserImpl.java</path>
+				<folder>src\parser</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\semantics\SemanticAnalyzer.java</path>
+				<folder>src\semantics</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\token\TokenImpl.java</path>
+				<folder>src\token</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\token\TokenType.java</path>
+				<folder>src\token</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4aZad</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4bZad</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4cZad</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4dZad</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4eZad.java</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4fZad.java</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\4gZad.java</path>
+				<folder>resources</folder>
+			</fileitem>
+			<fileitem>
+				<path>resources\5Zad.txt</path>
+				<folder>resources</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>ToDo - Add all other keywords into the HashSet */</description>
+			<filepath>src\token\TokenType.java</filepath>
+			<line>44</line>
+			<timestamp>1599808639</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;|&apos; (OR) or unknown symbol (OTHER) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>64</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;[&apos; (LSQUARE) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>72</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;]&apos; (RSQUARE) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>74</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;{&apos; (LBRACKET) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>76</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;}&apos; (RBRACKET) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>78</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;(&apos; (LPAREN) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>80</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;)&apos; (RPAREN) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>82</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;;&apos; (SEMICOLON) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>84</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;*&apos; (MUL) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>86</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;%&apos; (MOD) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>88</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;,&apos; (COMMA) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>90</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle operator &apos;@&apos; (AT) */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>92</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo - REPLACE true */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>225</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo - REPLACE true */</description>
+			<filepath>src\lexer\LexerImpl.java</filepath>
+			<line>234</line>
+			<timestamp>1667814589</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>ToDo handle symbol currentToken (currentToken.getTokenType()) */</description>
+			<filepath>src\parser\ParserImpl.java</filepath>
+			<line>276</line>
+			<timestamp>1670235836</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>

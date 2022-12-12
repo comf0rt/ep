@@ -1,0 +1,20 @@
+program {
+	fact(int num) -> int {
+	if (num > 1)
+		return num = @fact(n-1);
+	else
+		return 1;
+	}
+		
+main()->void {
+	int num;
+	print ("Enter a number: ");
+	read(num);
+	if (num < 0) {
+		print(num, "is a negative number!");
+		return;
+	}
+		
+	print("Factorial:". @fact(n));
+	}
+}
