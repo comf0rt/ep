@@ -1,0 +1,35 @@
+program {
+
+     main() -> void {
+        int a = 0;
+        print("Enter a number: ");
+        read(a);
+
+        int[] arr = int[10];
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 66;
+        arr[3] = 44;
+        arr[4] = 399;
+        arr[5] = 81;
+        arr[6] = 3;
+        arr[7] = 24;
+        arr[8] = 59;
+        arr[9] = 10;
+
+        boolean state = false;
+        while(i < 10) {
+            if(a == arr[i]) {
+                state = true;
+            }
+            i = i + 1;
+        }
+
+        if(state == true) {
+            print("Number is inside the array.");
+        }
+        else{
+            print("Number is not inside the array.");
+        }
+    }
+}

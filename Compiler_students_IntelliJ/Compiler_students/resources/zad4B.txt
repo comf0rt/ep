@@ -1,0 +1,15 @@
+program {
+    factorial(int a) -> int {
+        if(a == 0) {
+            return 1;
+        }
+        return a*@factorial(a - 1);
+    }
+
+    main() -> void {
+        int num = 0;
+        print("Enter a number: ");
+        read(num);
+        print("Factorial = ", @factorial(num));
+    }
+}
